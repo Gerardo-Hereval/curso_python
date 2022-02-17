@@ -1,0 +1,29 @@
+body{
+    background-color: #eee;
+}
+a{
+    color: hotpink;
+    background-color: aqua;
+    border: solid 1px #d00;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    
+}
+a:link{
+    color: pink;
+    text-decoration: none;
+}
+a:visited{
+    color:blue /*link visitados*/
+}
+
+a:active{
+    color:black ; 
+}
+
+a:hover{ /*Cuando tenemos el mause arriba del link*/
+    color: grey;
+    text-decoration: underline;
+    background-color: red;
+}
